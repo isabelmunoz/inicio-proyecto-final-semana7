@@ -57,7 +57,7 @@ Sketch Escritorio
 ![](img/sketch.png)
 
 Sketch Mobile
-![]()
+![](img/sketchmobile.jpeg)
 
 
 ##Descripción Layout:
@@ -66,17 +66,20 @@ Sketch Mobile
 ###Estructura HTML:
 
 1. La estructura debe estar compuesta por :
-   - 1 <nav></nav>
+   - 1 nav
        - Contiene logo y menú de navegación.
 
-   - 1 <header></header>
-       - Contiene título principal + imagen a la izquierda y parrafos a la derecha + parrafo a la izquierda e imagen a la derecha.
+   - 1 header
+       - Contiene imagenes con parrafos a la derecha y a la izquierda.
 
-   - 3 <section></section>
-       - Primera seccion: título + 2 imagenes verticales y descripcion en cada una de ellas
-       - Segunda seccion: título + botón.
+   - 3 section
+       - Primera sección: Noticias en miniatura, 2 filas con 3 columnas.
+       - Segunda sección: Galería de fotos en miniatura.
+       - Tercera sección: Contine enlaces para herramientas online que faciliten las tareas de los alumnos, material didáctico.
+   - 1 aside
+       - Contiene botones con enlaces a comunicados de CEPA,próximas actividades, videos de colegio.
 
-   - 1 <footer></footer>
+   - 1 footer
        - Contiene logo a la derecha + enlaces a herramientas a la derecha + ubicación al centro. 
 
 
