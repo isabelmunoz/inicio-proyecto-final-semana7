@@ -36,11 +36,15 @@
 ###Requerimientos visuales:
 
 1. Colores:
-   -#E56353
-   -#686963
-   -#707070
-   -#FAFAFA
-   -#FFFFFF
+   -#777777
+   -#CBEB92
+   -#93ead9
+   -#ffffff
+   -#33383b
+   -#5383d3
+   -#92999f
+   -#33383b
+   -#1e456d
 
 2. Fuentes:
    -Raleway-Bold.ttf
@@ -80,7 +84,7 @@ Sketch Mobile
        - Contiene botones con enlaces a comunicados de CEPA,próximas actividades, videos de colegio.
 
    - 1 footer
-       - Contiene logo a la derecha + enlaces a herramientas a la derecha + ubicación al centro. 
+       - Contiene logo a la izquierda + ubicación al centro + enlaces de interés a la derecha. 
 
 
 
