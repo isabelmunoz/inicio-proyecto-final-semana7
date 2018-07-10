@@ -1,3 +1,23 @@
+#Instrucciones
+
+1. Trabajar de forma individual.
+2. Seleccionar un tema (ver los temas más abajo).
+3. Crear un repositorio para el proyecto final (primer commit).
+4. Crear el archivo README.md en la raíz del proyecto donde irán descripciones e
+instrucciones (segundo commit).
+5. Crear la estructura de Directorios (tercer commit).
+6. Agregar al archivo readme.md las definiciones escritas de:
+El tema seleccionado
+Los objetivos para la interfaz (ui) y para la experiencia del usuario (ux).
+Los requerimientos del sitio
+La definición de layout (tipo de página).
+El boceto a mano (como imagen agregada al README.md y a la carpeta
+images del directorio (cuarto commit))
+7. Realizar un Mockup del home con HTML, CSS y Bootstrap (quinto commit).
+8. Versionar todo a través de GIT y gestionarlo por GitHub.
+
+#Desarrollo
+
 ##Tema seleccionado:
 - Página web de escuela municipal Ana Frank.
 

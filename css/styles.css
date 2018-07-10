@@ -1,6 +1,9 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
 body {
-  padding-top: 3rem;
-  padding-bottom: 0rem;
+  padding-top: 6rem;
   color: #5a5a5a;
 }
 /* NAVBAR*/
@@ -15,7 +18,9 @@ body {
   border-radius: 5px;
   padding-left: 60px;
 }
-/*CAROUSEL*/
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
@@ -37,33 +42,13 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 34rem;
+  height: 32rem;
 }
 
-/*Sidebar */
-#sidebar-wrapper {
-  width: 20%;
-  height: 60rem;
-  background: #CBEB92;
-  float: right;
-  position: relative;
-  bottom: 4rem;
-  }
- .sidebar-nav{
-  list-style: none;
-  padding-top: 8rem;
-  
- }
 
- .sidebar-nav>li{
-  padding: 3rem;
+/* MARKETING CONTENT
+-------------------------------------------------- */
 
- }
-/* MARKETING CONTENT */
-.marketing{
-  width: 80%;
-  float: left;
-}
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
@@ -78,34 +63,77 @@ body {
 }
 
 
-/* Galery photos */
-#rowgalery{
-    margin-right: 0;
-    background-color: #93ead9;
-    width: 100%;
-    clear: both;
-    position: relative;
-    bottom: 4rem;
-  }
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: 0px; 
-    margin-left: 0px; 
-}
-.card{
-  margin: 1.5rem;
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
 }
 
-/* Herramientas photos */
-
-.h2tools{
-  padding-left: 30rem;
-  padding-right: 30rem;
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
 }
 
+
+/************** enlaces importantes ***************/
+.important-links-index{
+    background-color: #F7F7F7; 
+    padding: 30px 0;
+    height: auto;
+}
+.important-links-index a{
+    border: 1px solid #737373;
+    background-color: transparent;
+    height: 130px;
+    width: 130px;
+    display: inline-block;
+    border-radius: 50%;
+    color: #737373;
+    margin: 30px 20px;
+    text-align: center;
+    transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    -ms-transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+}
+.important-links-index a:hover{
+    text-decoration: none;
+    background-color: #2E7D32;
+    border: 1px solid #F57C00;
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+.important-links-index a:hover p,
+.important-links-index a:hover i{
+    color: #FFF;
+}
+.important-links-index a:active,
+.important-links-index a:focus{
+    outline: none;
+    text-decoration: none;
+}
+.important-links-index a i,
+.important-links-index a p{
+    transition: .3s all ease-in-out;
+    -moz-transition: .3s all ease-in-out;
+    -ms-transition: .3s all ease-in-out;
+    -webkit-transition: .3s all ease-in-out;
+    transform: translateY(25px);
+    -moz-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    -webkit-transform: translateY(25px);
+}
+.important-links-index a i{
+    font-size: 45px;
+}
+.important-links-index a p{
+    font-size: 18px;
+}
 /*Footer */
 .footer-distributed{
   background-color: #1e456d;
@@ -116,7 +144,7 @@ body {
   font: bold 16px sans-serif;
 
   padding: 55px 50px;
-  margin-top: 80px;
+  
 }
 
 .footer-distributed .footer-left,
@@ -239,7 +267,9 @@ body {
   margin-bottom: 5px;
 }
 
-/* RESPONSIVE CSS */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
@@ -259,7 +289,6 @@ body {
     margin-top: 7rem;
   }
 }
-
 @media (max-width: 880px) {
 
   .footer-distributed{
