@@ -5,6 +5,15 @@
 }
 
 .bigicon {
-    font-size: 35px;
+    font-size: 30px;
     color: #36A0FF;
+}
+
+.container{
+	text-align: center;
+}
+.fas{
+	position: relative;
+	right: 28px;
+	display: inline-block;
 }
