@@ -278,13 +278,14 @@ body {
  .featurette-heading {
     margin-top: 7rem;
   }
+
   .footer-distributed {
     background-color: #1e456d;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font: bold 10px sans-serif;
+    font: bold 17px sans-serif;
   }
  }
 /* Móviles en horizontal o tablets en vertical
@@ -306,7 +307,7 @@ body {
     margin-left: 200px;
 }
 .footer-distributed{
-    font: bold 12px sans-serif;
+    font: bold 14px sans-serif;
   }
 
   .footer-distributed .footer-left,
